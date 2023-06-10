@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
-import MobileNavMenu from "./MobileNavMenu";
 import PageLink from "./PageLink";
 import Search from "../Search";
 
@@ -119,7 +118,6 @@ export default function Nav() {
               </div>
             </section>
           </nav>
-          <MobileNavMenu />
         </>
       )}
     </Disclosure>
