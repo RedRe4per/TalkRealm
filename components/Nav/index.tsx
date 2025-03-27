@@ -12,13 +12,13 @@ export default function Nav() {
           <nav className="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <section className="relative flex h-16 items-center justify-between">
               <div className="flex items-center px-2 lg:px-0">
-                <div className="flex-shrink-0">
+                {/* <div className="flex-shrink-0">
                   <img
                     className="hidden h-8 w-auto lg:block"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   />
-                </div>
+                </div> */}
                 <div className="hidden lg:ml-6 lg:block">
                   <ul className="flex space-x-4">
                     <PageLink href="#" pageName="home" />
